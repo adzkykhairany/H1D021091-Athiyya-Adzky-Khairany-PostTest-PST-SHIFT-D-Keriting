@@ -1,0 +1,31 @@
+1. Jelaskan cara kerja Servo
+Servo bekerja dengan prinsip umpan balik untuk mengontrol posisi dan kecepatannya.
+Servo biasanya terdiri motor, sensor, dan pengontrol. Motor menggerakkan beban, sensor mengukur posisi atau sudut, dan pengontrol mengatur gerakan motor berdasarkan perintah yang diberikan.
+
+2. Jelaskan cara kerja Ultrasonic
+Ultrasonic bekerja dengan mengirimkan gelombang suara frekuensi tinggi yang tidak bisa didengar manusia.
+Ketika gelombang suara mengenuai suatu objek, gelombang akan memantulkan kembali ke sensor. Sensor akan mengukur waktu yang dibutuhkan gelombang untuk kembali. 
+Dengan menggunakan kecepatan suara tersebut, sensor dapat menghitung jarak antara sensor dan objek
+
+3. Berikan contoh penggunaan Pemrograman Sistem Tertanam pada kehidupan sehari-hari minimal 5
+- GPS
+- Pengunci pintu pintar menggunakan sensor RFID/sidik jari
+- Sistem keamanan rumah dengan sensor gerakan
+- Pengukur suhuh pada AC dengan sensor suhu dan motor 
+- Sistem penerangan otomatis dengan sensor cahaya
+
+4. Jelaskan project yang akan kelompok kamu buat pada Mata Kuliah Pemrograman Sistem Tertanam 
+Judul : Pet Feeder Otomatis Berbasis IoT 
+Deskripsi : Sebuah perangkat feeder otomatis yang diprogram untuk bisa memberikan pakan hewat peliharaan secara terjadwal atau berdasarkan permintaan menggunakan aplikasi seluler.
+IoT digunakan untuk mengontrol proses pemberian makan dari jarak jauh. Melalui koneksi internet, pengguna dapat mengatur jadwal pemberian makan yang diberikan.
+NodeMCU sebagai otak utama sistem, servo motor sebagai mekanisme pengatur pemberian makanan, dan menggunakan bantuan platform Blynk sebagai antarmuka pengguna.
+
+Alat dan Bahan :
+- NodeMCU
+- Servo
+- Kabel Jumper
+- Battery bracket
+- Baterai AA
+- Wadah pakan
+- Penutup wadah pakan
+- Tempat pakan heawan
